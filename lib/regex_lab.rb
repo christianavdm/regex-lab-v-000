@@ -18,7 +18,7 @@ def valid_phone_number?(phone)
   phone.match(/[\d]{10}|
   \([\d]{3}\)[\d]{7}|
   \([\d]{3}\)[\d]{3}-[\d]{4}| # matches with the # that ends with 5 digits
-  [\d]{3} [\d]{3} [\d]{4}
+  [\d]{3}\s[\d]{3}\s[\d]{4}
   
   ) != nil
 end
